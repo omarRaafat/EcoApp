@@ -1,0 +1,22 @@
+.badge-info{
+    color: #fff;
+    background: #25a0e2;
+}
+.max80{
+    max-width: 80%;
+    display: inline-block;
+}
+.text-left{
+    text-align: left;
+}
+.badge-danger{
+    color: #fff;
+    background-color: #dc3545;
+}
+.badge-success{
+    color: #fff;
+    background-color: #28a745;
+}
+.table-nowrap td, .table-nowrap th{
+    white-space: unset;
+}

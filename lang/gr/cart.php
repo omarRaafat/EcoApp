@@ -1,0 +1,47 @@
+<?php
+
+return [
+    "api" => [
+        "product_deleted" => "Produkt gelöscht",
+        "products_retrived" => "Produkte wurden erfolgreich abgerufen",
+        'cart_not_found' => 'Warenkorb nicht gefunden',
+        'cart_is_empty' => 'Warenkorb ist leer',
+        'cart_updated' => 'Warenkorb aktualisiert',
+        'cart_wrong' => 'Ein Fehler ist aufgetreten',
+        'checkout_succesfully' => 'Die Anfrage war erfolgreich',
+        'cannot_checkout_product_missing' => "Die Bestellung konnte nicht abgeschlossen werden, das Produkt ist derzeit nicht verfügbar",
+        'payment_order_generated' => 'Zahlungsauftrag generiert',
+        'reorder_successfully'=>'erfolgreich nachbestellen',
+        'cannot_reorder'=>'kann nicht nachbestellen',
+        'reorder_with_missings'=>'reorder wurde nachbestellt, aber einige Artikel sind nicht verfügbar',
+        'cart_updated_with_missings' => 'Der Warenkorb wurde aktualisiert, aber einige Artikel fehlen',
+        'not_enough_amount_wallet' => 'Entschuldigung, nicht genug Geldbeutel',
+        'gateway-error' => 'Es gibt ein Problem mit dem Zahlungs-Gateway, versuchen Sie es erneut',
+        'address-out-of-coverage' => 'Adresse außerhalb der Abdeckung',
+        'coupon-not-started' => 'Gutschein nicht gestartet, Startdatum des Gutscheins (:Datum)',
+        'coupon-expired' => 'coupon-expired',
+        'coupon-not-active' => 'derzeit nicht verfügbar',
+        'coupon-not-exists' => 'Der eingegebene Coupon ist nicht gültig',
+        'coupon-exceed-usage' => 'Gutscheinnutzung überschritten',
+        'coupon-missed-order-minimum' => 'Der Rabattcoupon gilt nicht für Ihren Warenkorb',
+        'coupon-missed-delivery-minimum' => 'Der Rabattcoupon gilt nicht für Ihren Warenkorb',
+        'address-not-exists' => 'Wir haben die Adresse nicht',
+        'coupon-applied' => 'Gutschein erfolgreich angewendet',
+        'address-selected' => 'Die Adresse wurde erfolgreich ausgewählt',
+        'checkout' => [
+            'address_id' => 'Adresse',
+            'use_wallet' => 'Wallet verwenden',
+            'shipping_id' => 'Versandart',
+            'payment_id' => 'Bezahlverfahren',
+        ],
+        'product-missed-country' => "Bitte entfernen Sie diese Produkte (:products), da der Versand in das ausgewählte Land nicht möglich ist",
+        'product-missed-country-deleted' => 'Diese Produkte (:products) wurden entfernt, da sie in das ausgewählte Land nicht versandt werden können',
+        'cannot_reorder-some-product-missed' => 'Einige Produkte sind derzeit nicht verfügbar',
+        'address-is-international' => "Bei internationalen Bestellungen können Sie nicht bar bezahlen",
+        'delivery-date' => 'Voraussichtlicher Liefertermin ab: :dateFrom Zu: :dateTo',
+        'internationl-order' => [
+            'out-of-weight-range' => "Toegestaan ​​gewicht voor internationale bestelling Van: weightFrom kg tot: weightTo kg",
+            'maximum-amount' => "Het maximale bedrag voor een internationale bestelling :amount",
+        ],
+    ]
+];

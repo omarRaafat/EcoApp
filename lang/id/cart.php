@@ -1,0 +1,47 @@
+<?php
+
+return [
+    "api" => [
+        "product_deleted" => "produk dihapus",
+        "products_retrived" => "Produk berhasil diambil",
+        'cart_not_found' => 'Keranjang tidak ditemukan',
+        'cart_is_empty' => 'Keranjang kosong',
+        'cart_updated' => 'Keranjang diperbarui',
+        'cart_wrong' => 'Terjadi kesalahan',
+        'checkout_succesfully' => 'Permintaan berhasil',
+        'cannot_checkout_product_missing' => "Pesanan tidak dapat diselesaikan, produk saat ini tidak tersedia",
+        'payment_order_generated' => 'Perintah pembayaran dihasilkan',
+        'reorder_successfully'=>'susun ulang dengan sukses',
+        'cannot_reorder'=>'tidak dapat menyusun ulang',
+        'reorder_with_missings'=>'pengurutan ulang telah dilakukan tetapi beberapa item tidak tersedia',
+        'cart_updated_with_missings' => 'Kereta telah diperbarui tetapi beberapa item hilang',
+        'not_enough_amount_wallet' => 'Maaf, jumlah dompet tidak mencukupi',
+        'gateway-error' => 'Ada masalah dengan gateway pembayaran, coba lagi',
+        'address-out-of-coverage' => 'Alamat di luar jangkauan',
+        'coupon-not-started' => 'kupon belum dimulai, tanggal mulai kupon (:date)',
+        'kupon-kedaluwarsa' => 'kupon-kedaluwarsa',
+        'coupon-not-active' => 'saat ini tidak tersedia',
+        'coupon-not-exists' => 'Kupon yang dimasukkan tidak valid',
+        'coupon-exceed-usage' => 'kupon melebihi penggunaan',
+        'coupon-missed-order-minimum' => 'Kupon diskon tidak berlaku untuk keranjang Anda',
+        'coupon-missed-delivery-minimum' => 'Kupon diskon tidak berlaku untuk keranjang Anda',
+        'address-not-exists' => 'Kami tidak memiliki alamat',
+        'coupon-applied' => 'kupon berhasil diterapkan',
+        'address-selected' => 'Alamat berhasil dipilih',
+        'checkout' => [
+            'address_id' => 'Alamat',
+            'use_wallet' => 'Gunakan Dompet',
+            'shipping_id' => 'metode pengiriman',
+            'payment_id' => 'Cara Pembayaran',
+        ],
+        'product-missed-country' => "Harap hapus produk tersebut (:products), Karena tidak tersedia untuk pengiriman di negara yang dipilih",
+        'product-missed-country-deleted' => 'Produk tersebut (:products) dihapus, Karena tidak tersedia untuk pengiriman di negara yang dipilih',
+        'cannot_reorder-some-product-missed' => 'Ada beberapa produk yang tidak tersedia untuk waktu saat ini',
+        'address-is-international' => "Anda tidak dapat membayar tunai untuk pesanan internasional",
+        'delivery-date' => 'Tanggal pengiriman yang diharapkan dari: :dateFrom ke :dateTo',
+        'internationl-order' => [
+            'out-of-weight-range' => "Berat yang diizinkan untuk pesanan internasional Dari :weightFrom kg ke :weightTo kg",
+            'maximum-amount' => "Jumlah maksimum untuk pesanan internasional :amount",
+        ],
+    ]
+];
